@@ -1,0 +1,26 @@
+CHECKS BEFORE RUNNING THE SCRIPT
+*match the format from readme
+*branch in uppercase
+*course in proper format ( B.Tech, M.Tech, PhD)
+*paymetn type in proper case (Semester Fees, Admission Fee, Application Fees )
+File contanis only your data and nothing else
+
+
+
+ 
+SAMPLE DATA
+
+Semester Fees
+b10000
+Jhon Lieu
+B.Tech
+CSE
+2020
+5
+50000
+hi
+2005
+1
+15
+8115504753
+dgdbdb@gmail.com
