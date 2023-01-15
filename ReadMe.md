@@ -4,9 +4,8 @@ Container of my selenium automation scripts
 
 # To get started
 
-1. Download **Selenium python pkg** by `pip install selenium` or [Google it](https://pypi.org/project/selenium/).
-2. Run `pip install -r requirements.txt` in terminal.
-3. Open the desired script in any code editor and run it.
+1. Run `pip install -r requirements.txt` in terminal.
+2. Open the desired script in any code editor and run it.
 
 # Important
 
