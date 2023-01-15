@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
 
 
 dict = {'payment_type':"",
@@ -90,12 +91,15 @@ def fill_details():
     # enter email
     driver.find_element(by=By.ID, value="emailId").send_keys(dict['emailId'])
     # wait for user to input captcha
-    time.sleep(10)
+    time.sleep(15)
     # click submit
-    driver.find_element(by=By.XPATH, value="//*[@id='frmFeeParams']/div[3]/button[1]").click()
-    # click cnf
-    # driver.find_element(by=By.XPATH, value="//*[contains(text(), 'Confirm')]").click()
-    
+    submit = None
+    try:
+        submit = driver.find_element(by=By.XPATH, value="//*[@id='frmFeeParams']/div[3]/button[1]")
+        submit.click()
+    except NoSuchElementException:
+        pass
+
     while(True):
         pass
 
