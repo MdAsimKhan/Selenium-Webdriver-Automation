@@ -1,5 +1,6 @@
 import time, re
 from selenium import webdriver
+import chromedriver_autoinstaller
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -24,6 +25,7 @@ dict = {'payment_type':"",
 
 # automation code
 def fill_details():
+    chromedriver_autoinstaller.install()
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("https://www.onlinesbi.sbi/sbicollect/icollecthome.htm")
