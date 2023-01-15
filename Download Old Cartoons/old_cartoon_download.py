@@ -1,7 +1,8 @@
 from tkinter import *
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import chromedriver_autoinstaller
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 
 main_window = Tk()
@@ -22,8 +23,10 @@ mov.grid(row=1, column=1)
 both = Radiobutton(main_window, text="Both", variable=var, value=" ")
 both.grid(row=1, column=2)
 
+
+# automation script with user input
 def click_button():
-    # automation script with user input
+    chromedriver_autoinstaller.install()
     driver = webdriver.Chrome() 
     driver.maximize_window()
     driver.get("https://raretoonshindi.in/")
