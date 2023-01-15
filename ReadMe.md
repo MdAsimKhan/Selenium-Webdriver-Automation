@@ -9,7 +9,7 @@ Container of my selenium automation scripts
 
 # Important
 
-Carefully follow the guidelines given in `ReadMe.txt` of every script for proper functioning.
+Carefully follow the guidelines given in `ReadMe.txt` of the script(s) for proper functioning.
 
 # Note
 
