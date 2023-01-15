@@ -16,7 +16,7 @@ dict = {'payment_type':"",
         'remarks':"",
         'birth_yr':"",
         'birth_month':"",
-        'birth_date':'',
+        'birth_date':"",
         'phone':"",
         'emailId':""}
 
