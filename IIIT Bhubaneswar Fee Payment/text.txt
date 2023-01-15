@@ -2,14 +2,10 @@ CHECKS BEFORE RUNNING THE SCRIPT
 *match the format from readme
 *branch in uppercase
 *course in proper format ( B.Tech, M.Tech, PhD)
-*paymetn type in proper case (Semester Fees, Admission Fee, Application Fees )
-File contanis only your data and nothing else
+*payment type in proper case (Semester Fees, Admission Fee, Application Fees )
+text.txt contanis only your data and nothing else
 
-
-
- 
 SAMPLE DATA
-
 Semester Fees
 b10000
 Jhon Lieu
